@@ -1,38 +1,44 @@
 {
-    "generator-jhipster": {
-        "promptValues": {
-            "packageName": "com.mycompany.store",
-            "nativeLanguage": "fr"
-        },
-        "jhipsterVersion": "5.8.2",
-        "applicationType": "monolith",
-        "baseName": "store",
-        "packageName": "com.mycompany.store",
-        "packageFolder": "com/mycompany/store",
-        "serverPort": "8080",
-        "authenticationType": "jwt",
-        "cacheProvider": "hazelcast",
-        "enableHibernateCache": true,
-        "websocket": "spring-websocket",
-        "databaseType": "sql",
-        "devDatabaseType": "h2Disk",
-        "prodDatabaseType": "mysql",
-        "searchEngine": false,
-        "messageBroker": false,
-        "serviceDiscoveryType": false,
-        "buildTool": "gradle",
-        "enableSwaggerCodegen": false,
-        "jwtSecretKey": "OGMyMDYwZTg1YjRiZjU3OWVmZTkwYjJiZTVhOWM1ZDJlZGU1NjE0YzRhMjlkYjAxOWYyYmFjYjNiNzliNTQxZGExZjJiYmM5NGMyZTZjYzQ5Mzg4YWIzYWZjOTYzY2ZiMGU0ZDY2Mzc3ODIwNzlmZTZhMDk0ODZlMTgxMGVlMWE=",
-        "clientFramework": "angularX",
-        "useSass": true,
-        "clientPackageManager": "npm",
-        "testFrameworks": ["protractor"],
-        "jhiPrefix": "jhi",
-        "entitySuffix": "",
-        "dtoSuffix": "DTO",
-        "otherModules": [],
-        "enableTranslation": true,
-        "nativeLanguage": "fr",
-        "languages": ["fr", "ar-ly", "en"]
-    }
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.mycompany.store",
+      "nativeLanguage": "fr"
+    },
+    "jhipsterVersion": "5.8.2",
+    "applicationType": "monolith",
+    "baseName": "store",
+    "packageName": "com.mycompany.store",
+    "packageFolder": "com/mycompany/store",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "OGMyMDYwZTg1YjRiZjU3OWVmZTkwYjJiZTVhOWM1ZDJlZGU1NjE0YzRhMjlkYjAxOWYyYmFjYjNiNzliNTQxZGExZjJiYmM5NGMyZTZjYzQ5Mzg4YWIzYWZjOTYzY2ZiMGU0ZDY2Mzc3ODIwNzlmZTZhMDk0ODZlMTgxMGVlMWE=",
+    "clientFramework": "angularX",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [
+      "protractor"
+    ],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "fr",
+    "languages": [
+      "fr",
+      "ar-ly",
+      "en"
+    ]
+  }
 }
